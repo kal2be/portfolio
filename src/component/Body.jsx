@@ -9,8 +9,8 @@ initial={{opacity:0,y:20}}
 transition={{duration:1}}
 whileInView={{opacity:1,y:0}}>
 
-    <h2 className="text-xl text-white my-1 mx-2">Yahoulbo Felix</h2>
-    <p className="text-md text-gray-300 mx-2">Software Engineer</p>
+    <h2 className="text-xl text-white my-1 mx-3">Yahoulbo Felix</h2>
+    <p className="text-md text-gray-300 mx-3">Software Engineer</p>
    <div className="p-4 shadow-sm max-h-80 overflow-y-auto scroll-m-3 my-2">
      <p className="my-p lg:pe-7 text-gray-300 text-lg my-1 font-sans  ">
     Hi, I’m Yahoulbo Felix, a highly motivated Computer Scientist and Software Engineer with a passion for creating fast, responsive, and visually engaging web experiences.

@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faBootstrap, faGithub, faLinkedinIn, faMdb, faNodeJs, faReact, faXTwitter,faTypo3} from '@fortawesome/free-brands-svg-icons'
-import {  faArrowRight, faMailBulk} from '@fortawesome/free-solid-svg-icons'
+import {  faBootstrap, faGithub, faLinkedinIn, faMdb, faNodeJs, faReact, faXTwitter} from '@fortawesome/free-brands-svg-icons'
+import {  faArrowRight, faCloud, faMailBulk} from '@fortawesome/free-solid-svg-icons'
 import "./build.scss"
 import { Link } from 'react-router-dom'
 import {motion} from "framer-motion"
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons/faGithubAlt'
 function Build() {
   return (
     <div className='lg:mt-20 mt-10'>
@@ -24,12 +25,13 @@ function Build() {
       {/* _+++++++++++++++++++ the current skills that we working _++++++++++++++++++++++ */}
       <div className='my-20'>
        <h2 className='text-xl font-medium text-white'>Current favorite tech stack/tools</h2>
-       <div className='text-gray-400 text-3xl flex justify-between  w-52 mt-6'>
-       <FontAwesomeIcon icon={faBootstrap}/>
-       <FontAwesomeIcon icon={faReact}/>
-       <FontAwesomeIcon icon={faNodeJs}/>
-       <FontAwesomeIcon icon={faMdb}/>
-       <FontAwesomeIcon icon={faTypo3}/>
+       <div className='text-gray-400 grid lg:grid-cols-6 grid-cols-3 justify-between md:gap-4 gap-2  mt-6'>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>Bootstrap<FontAwesomeIcon icon={faBootstrap} className='text-blue-400'/></span>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>ReactJs<FontAwesomeIcon icon={faReact} className='text-blue-400'/></span>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>MongoDb<FontAwesomeIcon icon={faMdb} className='text-green-400'/></span>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>NodeJs<FontAwesomeIcon icon={faNodeJs} className='text-yellow-400'/></span>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>AwS<FontAwesomeIcon icon={faCloud} className='text-yellow-800'/></span>
+       <span className='border border-gray-700 p-2 flex justify-between gap-1 items-center'>Git&Github<FontAwesomeIcon icon={faGithub} /></span>
        </div>
       </div>
 

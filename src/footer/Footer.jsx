@@ -40,10 +40,10 @@ function Footer() {
     <div className="flex justify-between items-center my-6 text-white">
         <p>&copy; <span className="text-[#e80b24]">Kalibe Group Inc</span> {date}</p>
         <div className="flex gap-3 justify-between text-xl">
-          <Link>  <FontAwesomeIcon icon={faWhatsapp}/></Link>
+          <Link>  <FontAwesomeIcon icon={faWhatsapp} className="text-green-600"/></Link>
             <Link to="https://github.com/kal1be"><FontAwesomeIcon icon={faGithub}/></Link>
-           <Link> <FontAwesomeIcon icon={faXTwitter}/></Link>
-          <Link>  <FontAwesomeIcon icon={faLinkedin}/></Link>
+           <Link> <FontAwesomeIcon icon={faXTwitter} className="text-black"/></Link>
+          <Link>  <FontAwesomeIcon icon={faLinkedin} className="text-blue-900"/></Link>
         </div>
     </div>
     </div>

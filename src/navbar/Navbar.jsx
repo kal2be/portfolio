@@ -11,7 +11,7 @@ function Navbar() {
      <div className="wrapper flex justify-between items-center rounded-lg">
       <div className="">
 
-        <h2 className=" font-bold text-xl" id="felix">Yahoulbo Felix</h2>
+        <h2 className=" font-bold text-lg" id="felix">Yahoulbo Felix</h2>
       </div>
       <div>
         <ul className="md:flex gap-12 justify-between text-sm" id={open?"open":"close"}>

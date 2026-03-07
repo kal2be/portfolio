@@ -17,20 +17,6 @@ function About() {
                   className="w-[700px] h-[700px] border border-purple-500 rounded-full absolute top-20 right-[-200px]"
                 />
               </div>
-
-{/* <h2 className='md:text-lg font-medium my-2 opacity-55 text-lg '>About my-Self
-</h2>
-<div className='my-2 text-lg'>
-    <p>Hello my name is <span className='text-[#e80b24]'>Yahoulbo Felix</span>,i'm a software developer,student,self motivator,programmer.</p>
-    <br />
-    <p>As i say,i'm a hard-worker and my ability to learn fast help me alot for entirely my life.</p>
-</div>
-<div className='text-lg my-4'>
-
-    <h3 className='text-lg font-bold opacity-75 text-[#e80b24]'>About my current work</h3>
-    <p>As a developper,i'm currently seeking for a junior Developer opportunity to further enhance skills in 
-      HTML,CSS3, JavaScript, React.js(Next.js), TypeScript, Node.js and MongoDb while gained practical experience in a professional environment!</p>
-</div> */}
   <section
       id="about"
       className=" py-12 bg-[#011c2d]  text-white overflow-hidden"
@@ -90,7 +76,7 @@ function About() {
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="grid grid-cols-2 gap-6"
+          className="grid md:grid-cols-2 gap-6"
         >
 
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-xl">
