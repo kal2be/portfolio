@@ -58,7 +58,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-             <img src="/yahoulbo-portfolio/felx.jpg" className='w-24 border my-2 h-24 rounded-full' alt="" />
+             <img src="/felx.jpg" className='w-24 border my-2 h-24 rounded-full' alt="" />
           <h2 className="lg:text-2xl text-xl font-bold mb-6">
             About Me
           </h2>

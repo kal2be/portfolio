@@ -30,11 +30,11 @@ const App = () => {
    <BrowserRouter>
       <Navbar/>
    <Routes>
-  <Route path='/yahoulbo-portfolio/' base element={<Home/>}/>
-  <Route path='/yahoulbo-portfolio/about' element={<About/>}/>
-  <Route path='/yahoulbo-porfolio/contact' element={<Contact/>}/>
-  <Route path='/yahoulbo-porfolio/blog' element={<Blog/>}/>
-  <Route path='/yahoulbo-porfolio/service' element={<Service/>}/>
+  <Route path='/' base element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/contact' element={<Contact/>}/>
+  <Route path='/blog' element={<Blog/>}/>
+  <Route path='/service' element={<Service/>}/>
    </Routes>
    </BrowserRouter>
   )

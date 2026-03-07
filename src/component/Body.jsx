@@ -27,7 +27,7 @@ I love solving complex problems, experimenting with new technologies, and transf
         <motion.img 
 whileHover={{scale:1}}
 initial={{rotate:2,opacity:0,scale:1}} transition={{duration:2}} animate={{rotate:360,opacity:1,scale:1}}
- src="/yahoulbo-portfolio/kal.png" className="my-image h-96 object-cover max-h-96 max-w-96 w-full lg:mt-0"/>
+ src="/kal.png" className="my-image h-96 object-cover max-h-96 max-w-96 w-full lg:mt-0"/>
 
       </div>
      

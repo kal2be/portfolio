@@ -7,7 +7,7 @@ function Body1() {
           <motion.img
           whileHover={{scale:1}}
           initial={{rotate:2,opacity:0,scale:.2}} transition={{duration:2}} animate={{rotate:360,opacity:1,scale:.9}}
- src="/yahoulbo-portfolio/kal.png" className="my-image h-full w-full mt-8 lg:mt-0"/>
+ src="/kal.png" className="my-image h-full w-full mt-8 lg:mt-0"/>
 
         </div>
   <div className="my-4 p-4 max-h-96 overflow-y-auto shadow-sm">
