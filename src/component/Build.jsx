@@ -95,7 +95,7 @@ function Build() {
        <Link className='lg:w-[65%]' to="https://kal1be.github.io/toukra-project">
 
        <div className='border p-4  lg:me-2' id='element'>
-<img src='/yahoulbo-portfolio/toukra1.png' className='h-[35vh] w-full'/>
+<img src='/toukra1.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>Septembre 2023</h4>
 <p className='text-md my-2 text-white px-1'>The university website was created in the objectif to help the foreign
  to know more about the university and know about their program and discuss with the school stuff for more about their service.</p>
@@ -103,7 +103,7 @@ function Build() {
        <Link className='lg:w-[65%]' to="https://kal1be.github.io/devtechnology">
 
 <div className='border p-4  lg:me-2' id='element'>
-<img src='/yahoulbo-portfolio/devtech.png' className='h-[35vh] w-full'/>
+<img src='/devtech.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>March 2024</h4>
 <p className='text-md my-2 text-white px-1'>DevTechnology is one of my company build for creating cutting-edge service web,networking,LMS platform,E-Commerce and since created and stabilish in 2018,we have almost 300 users in two different country .</p>
 </div></Link>
@@ -114,14 +114,14 @@ function Build() {
       <Link className='lg:w-[65%]' to="https://distance-learning-blog.onrender.com">
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
-      src='/yahoulbo-portfolio/distance.png' className='h-[35vh] w-full'/>
+      src='/distance.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>Mars 2024</h4>
        <p className='text-md my-2 text-white px-1'>Distance Learning blog is a plateform to address real-world issues,enabling students and members of faculty to create and share diverse including blogs.</p>
        </div></Link>
      <Link className='lg:w-[65%]' to="https://learn-online-course.onrender.com/">
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
-      src='/yahoulbo-portfolio/webdocs.png' className='h-[35vh] w-full'/>
+      src='/webdocs.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>september 2024</h4>
        <p className='text-md my-2 text-white px-1'>WebDocs is an online platform  build for teaching basics of programing such as HTML,CSS3,JavaScript ! and the new version of the software will out !</p>
        </div></Link>
