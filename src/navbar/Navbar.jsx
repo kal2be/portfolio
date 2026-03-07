@@ -19,19 +19,19 @@ function Navbar() {
         <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white p-2 text-[#0e4465]" onClick={()=>{
           setOpen(!open)
         }} id="toclo"/>
-            <li  className="" onClick={()=>setOpen(!open)}><Link to="/yahoulbo-portfolio/">Home</Link></li>
+            <li  className="" onClick={()=>setOpen(!open)}><Link to="/">Home</Link></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
-            }}><Link to="/yahoulbo-portfolio/about">About</Link> <FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+            }}><Link to="/about">About</Link> <FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
             }}>
-              <Link to="/yahoulbo-porfolio/contact">Contact</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+              <Link to="/contact">Contact</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
 
-            }}><Link to="/yahoulbo-porfolio/service">Services</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
-{/* <li><Link to="/yahoulbo-porfolio/service">Service</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li> */}
+            }}><Link to="/service">Services</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+{/* <li><Link to="/service">Service</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li> */}
 
 
         </ul>
