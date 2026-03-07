@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato:wght@300;400&family=Montserrat+Alternates:ital@1&family=Rubik+Scribble&display=swap');
+
+
+body{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #011c2d;
+    // padding: 13px 0;
+}
+
+#myborder{
+    border: 2px solid rgb(49, 215, 115);
+}
+#network{
+    p{
+        border: 1px solid transparent;
+    }
+    p:hover{
+        border: 1px solid rgb(49, 117, 226);
+    }
+}
+
+#element:hover{
+border: 1px solid rgb(49, 117, 226);
+}
+
+// ++++++++++++ the preloader before the website scss
+
+
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: preloader 2s linear infinite;
+    margin: 0 0;
+    background-color: rgb(1, 28, 45);
+}
+
+.preloader span{
+    width: 30px;
+    height: 30px;
+    background-color: #0e44657c;
+    margin: 0 2px;
+    border-radius: 50%;
+    padding: 4px;
+    animation: del 2s linear infinite;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.preloader .animation1{
+    animation-delay: .1s;
+    transition: .1s ease-in-out;
+}
+.preloader .animation2{
+    animation-delay: .4s;
+    transition: .2s ease-in-out;
+}
+.preloader .animation3{
+    animation-delay: .9s;
+    transition: .4s ease-in-out;
+}
+@keyframes del {
+    0%,100%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+
+
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-track{
+    background: #011c2d;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#e80b24;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}

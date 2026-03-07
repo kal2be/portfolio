@@ -1,0 +1,78 @@
+.wrapper{
+    width: 900px;
+    padding: 10px 15px;
+    color: white;
+}
+.wrap{
+    width: 850px;
+    padding: 8px 15px;
+}
+
+#felix{
+    border-left: 2px solid #e80b24 ;
+    padding: 2px 5px;
+    border-top: 2px solid #e80b24;
+    color:#e80b24 ;
+}
+
+@media(min-width:787px){
+    .my-btn{
+        display: none;
+    }
+    #open{
+        font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .phone{
+        display: none;
+    }
+    #toclo{
+        display: none;
+    }
+    #icon-none{
+        display:none;
+    }
+}
+
+@media(max-width:786px){
+    .wrapper{
+        width: 100vw;
+        padding: 6px 15px;
+        color: white;
+    } 
+    #open{
+      position: absolute;
+       left: 0;
+       width: 100%;
+       background-color:#021927;
+      padding: 20px 0;
+      top:-12px;
+      transition: .2s linear ;
+      height: 1000vh;
+      max-height: 100vh;
+      bottom: 0;
+    }
+    #close{
+     height: 0vh;
+      position: absolute;
+   scale: 0;
+   top: -100%;
+    }
+
+    #open li{
+        margin: 15px 10px;
+        border-bottom: 1px solid white ;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wrap{
+        width: 100vw;
+        padding: 8px 15px;
+    }
+    .laptop{
+        display: none;
+    }
+}
