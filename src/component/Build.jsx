@@ -46,10 +46,21 @@ function Build() {
         whileInView={{opacity:1,x:0}}
          className='rounded-lg py-3 px-2 bg-[#011826a0] my-6'>
 
-            <h3 className='text-xl text-white capitalize'>Built a school website name <span className='text-[#e80b24]'>universite de Toukra</span></h3>
+            <h3 className='text-xl text-white capitalize'>software<span className='text-[#e80b24]'>universite de Toukra</span></h3>
 
             <h4 className='text-md text-gray-300 my-3'>Septembre 2023</h4>
-            <p className='text-lg text-gray-300'>We create a university website who help the foreign to know about the university !</p>
+            <p className='text-lg text-gray-300'>The university web app was created to allow student to register online to the university and check available department in the university.</p>
+        </motion.div>
+        <motion.div
+        initial={{opacity:0,x:-100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+         className='rounded-lg py-3 px-2 bg-[#011826a0] my-6'>
+
+            <h3 className='text-xl text-white capitalize'>Software <span className='text-[#e80b24]'>Sesaabu</span></h3>
+
+            <h4 className='text-md text-gray-300 my-3'>january 2026</h4>
+            <p className='text-lg text-gray-300'>The university website who allow student in the department to be able to download course materiel,interact with others and allow staff to post news paper in the department with an active admin dashboard who can upload course materiel,news paper and blogs !</p>
         </motion.div>
         <motion.div
         initial={{opacity:0,x:-100}}
@@ -57,19 +68,19 @@ function Build() {
 
         whileInView={{opacity:1,x:0}}
          className='rounded-lg py-3 px-2 bg-[#021927a0] my-6'>
-            <h3 className='text-xl text-white capitalize'>Real world problem solver website<span className='text-[#e80b24]'> Distance Learning blog</span></h3>
+            <h3 className='text-xl text-white capitalize'>web app<span className='text-[#e80b24]'> Distance Learning blog</span></h3>
             <h4 className='text-md text-gray-300 my-3'>April 2024</h4>
             <p className='text-lg text-gray-300'>Developed a platform to address real-world issues, enabling students and faculty members to create and share diverse content, including blogs. The platform boasts 150 active users and facilitates interactive engagement through commenting functionalities. Leveraged technologies such as React, MongoDB,
              Express, and Node.js for robust development and implemented enhanced authentication mechanisms for improved security.</p>
         </motion.div>
-
+       
 
 
         <motion.div
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#021927a0] my-6'>
-            <h3 className='text-xl text-white capitalize'> Build a Web documentation named <span className='text-[#e80b24]'>WebDocs</span></h3>
+            <h3 className='text-xl text-white capitalize'> Software <span className='text-[#e80b24]'>WebDocs</span></h3>
 
         {/* whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#021927a0] my-6'> */}
             <h4 className='text-md text-gray-300 my-3'>october 2023</h4>
@@ -80,9 +91,9 @@ function Build() {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#021927a0] my-6'>
 
-<h3 className='text-xl text-white capitalized'>Built a <span className='text-[#e80b24]'>AnasDev</span> Institute</h3>      
-      <h4 className='text-md  text-gray-300 my-3'>November 2023</h4>
-            <p className='text-lg text-gray-300'>The website is created to teach user with programming and data analyst course and certified with it.</p>
+<h3 className='text-xl text-white capitalized'>Trading platform <span className='text-[#e80b24]'>OneX</span></h3>      
+      <h4 className='text-md  text-gray-300 my-3'>Mars 2026</h4>
+            <p className='text-lg text-gray-300'>The software was create to perform in the crypto market by generating signal,using mathematiques and machine learning. allow quant and trader to make informed decisions.</p>
         </motion.div>
       </div>
         <h2 className='text-xl text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
@@ -91,7 +102,27 @@ function Build() {
       <hr/>
       <div className='my-20'>
       <h2 className='text-2xl font-bold text-white'>Latest project</h2>
-      <p className='text-white text-xl my-2'>Click on these picture to enter the website .</p>
+      <p className='text-white text-xl my-2'>Click on the project to enter the website .</p>
+
+
+      
+       <div className='lg:flex mt-10'>
+      <Link className='lg:w-[65%]' to="https://onex-one.vercel.app">
+     <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
+       <motion.img 
+      src='/onex.png' className='h-[35vh] w-full'/>
+       <h4 className='text-lg text-[#e80b24] px-1 my-3'>Mars 2026</h4>
+       <p className='text-md my-2 text-white px-1'>The software was create to perform in the crypto market by generating signal,using mathematiques and machine learning. allow quant and trader to make informed decision</p>
+       </div></Link>
+     <Link className='lg:w-[65%]' to="sesaabu.com.ng">
+     <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
+       <motion.img 
+      src='/sesa.png' className='h-[35vh] w-full'/>
+       <h4 className='text-lg text-[#e80b24] px-1 my-3'>september 2024</h4>
+       <p className='text-md my-2 text-white px-1'>The university website who allow student in the department to be able to download course materiel,interact with others and allow staff to post news paper in the department. </p>
+       </div></Link>
+      </div>
+
       {/* _++++++++++++++++++ the first latest project_++++++++++++++++++++++++++++ */}
       <div className='lg:flex mt-10'>
        <Link className='lg:w-[65%]' to="https://kal1be.github.io/toukra-project">
@@ -128,6 +159,8 @@ function Build() {
        <p className='text-md my-2 text-white px-1'>WebDocs is an online platform  build for teaching basics of programing such as HTML,CSS3,JavaScript ! and the new version of the software will out !</p>
        </div></Link>
       </div>
+
+
     
       <h2 className='text-xl my-8 text-white'>View more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
       </div>

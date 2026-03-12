@@ -113,9 +113,9 @@ function About() {
     </section>
 
 <div className='px-3'>
-<h3 className='lg:text-2xl text-lg opacity-75 my-5 text-gray-200'>Download my CV here!</h3>
+<h3 className='lg:text-2xl text-lg opacity-75 my-5 text-gray-200 '>Download my CV here!</h3>
 
-<a className='bg-[#021927a0] border rounded-xl text-gray-400 py-2 px-3 my-2' href="/yahoulbo-portfolio/dev-felix.pdf" download>Download CV</a>
+<a href="/kalibe.pdf" className='bg-[#021927bd] rounded-md text-gray-400 py-2 px-3 my-2 cursor-pointer'  download="/kalibe.pdf"><button>Download CV</button></a>
 </div>
 <div className='mt-8'>
 <Footer/>
