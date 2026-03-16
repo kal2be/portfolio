@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBootstrap, faGithub, faLinkedinIn, faMdb, faNodeJs, faReact, faXTwitter} from '@fortawesome/free-brands-svg-icons'
 import {  faArrowRight, faCloud, faMailBulk} from '@fortawesome/free-solid-svg-icons'
 import "./build.scss"
-import { Link } from 'react-router-dom'
 import {motion} from "framer-motion"
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons/faGithubAlt'
 function Build() {
@@ -46,7 +45,7 @@ function Build() {
         whileInView={{opacity:1,x:0}}
          className='rounded-lg py-3 px-2 bg-[#011826a0] my-6'>
 
-            <h3 className='text-xl text-white capitalize'>software<span className='text-[#e80b24]'>universite de Toukra</span></h3>
+            <h3 className='text-xl text-white capitalize'>software <span className='text-[#e80b24]'>universite de Toukra</span></h3>
 
             <h4 className='text-md text-gray-300 my-3'>Septembre 2023</h4>
             <p className='text-lg text-gray-300'>The university web app was created to allow student to register online to the university and check available department in the university.</p>
@@ -96,7 +95,7 @@ function Build() {
             <p className='text-lg text-gray-300'>The software was create to perform in the crypto market by generating signal,using mathematiques and machine learning. allow quant and trader to make informed decisions.</p>
         </motion.div>
       </div>
-        <h2 className='text-xl text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
+        {/* <h2 className='text-xl text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2> */}
       </div>
       {/* +______________________________ our peojwct +____________________+++++++++++++++++++++++++++++==== */}
       <hr/>
@@ -107,57 +106,57 @@ function Build() {
 
       
        <div className='lg:flex mt-10'>
-      <Link className='lg:w-[65%]' to="https://onex-one.vercel.app">
+      <a className='lg:w-[65%] block cursor-pointer z-50 relative' href="https://onex-one.vercel.app" target='_blank ' rel='noopener noreferrer'>
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/onex.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>Mars 2026</h4>
        <p className='text-md my-2 text-white px-1'>The software was create to perform in the crypto market by generating signal,using mathematiques and machine learning. allow quant and trader to make informed decision</p>
-       </div></Link>
-     <Link className='lg:w-[65%]' to="sesaabu.com.ng">
+       </div></a>
+     <a className='lg:w-[65%] block cursor-pointer z-50 relative' href="https://sesaabu.com.ng" target='_blank ' rel='noopener noreferrer'>
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/sesa.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>september 2024</h4>
        <p className='text-md my-2 text-white px-1'>The university website who allow student in the department to be able to download course materiel,interact with others and allow staff to post news paper in the department. </p>
-       </div></Link>
+       </div></a>
       </div>
 
       {/* _++++++++++++++++++ the first latest project_++++++++++++++++++++++++++++ */}
       <div className='lg:flex mt-10'>
-       <Link className='lg:w-[65%]' to="https://kal1be.github.io/toukra-project">
+       <a  href="https://kal1be.github.io/toukra-project " className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer'>
 
        <div className='border p-4  lg:me-2' id='element'>
 <img src='/toukra1.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>Septembre 2023</h4>
 <p className='text-md my-2 text-white px-1'>The university website was created in the objectif to help the foreign
  to know more about the university and know about their program and discuss with the school stuff for more about their service.</p>
-       </div></Link>
-       <Link className='lg:w-[65%]' to="https://kal1be.github.io/devtechnology">
+       </div></a>
+       <a  href="https://kal1be.github.io/devtechnology" className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer'>
 
 <div className='border p-4  lg:me-2' id='element'>
 <img src='/devtech.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>March 2024</h4>
 <p className='text-md my-2 text-white px-1'>DevTechnology is one of my company build for creating cutting-edge service web,networking,LMS platform,E-Commerce and since created and stabilish in 2018,we have almost 300 users in two different country .</p>
-</div></Link>
+</div></a>
    
       </div>
       {/* +____________________=++++++++++++++++++++ the second latest project+_______________________________+++++++++++++++++ */}
       <div className='lg:flex mt-10'>
-      <Link className='lg:w-[65%]' to="https://distance-learning-blog.onrender.com">
+      <a  href="https://distance-learning-blog.onrender.com" className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer' >
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/distance.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>Mars 2024</h4>
        <p className='text-md my-2 text-white px-1'>Distance Learning blog is a plateform to address real-world issues,enabling students and members of faculty to create and share diverse including blogs.</p>
-       </div></Link>
-     <Link className='lg:w-[65%]' to="https://learn-online-course.onrender.com/">
+       </div></a>
+     <a  href="https://learn-online-course.onrender.com/" className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer'>
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/webdocs.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg text-[#e80b24] px-1 my-3'>september 2024</h4>
-       <p className='text-md my-2 text-white px-1'>WebDocs is an online platform  build for teaching basics of programing such as HTML,CSS3,JavaScript ! and the new version of the software will out !</p>
-       </div></Link>
+       <p className='text-md my-2 text-white px-1'>WebDocs is an online platform  build for teaching basics of programing such as HTML,CSS3,JavaScript,python it easy to navigate and interact with as a beginner</p>
+       </div></a>
       </div>
 
 

@@ -115,7 +115,7 @@ function About() {
 <div className='px-3'>
 <h3 className='lg:text-2xl text-lg opacity-75 my-5 text-gray-200 '>Download my CV here!</h3>
 
-<a href="/kalibe.pdf" className='bg-[#021927bd] rounded-md text-gray-400 py-2 px-3 my-2 cursor-pointer'  download="/kalibe.pdf"><button>Download CV</button></a>
+<a href="/kalibe.pdf" className='bg-[#052d46f8] w-36 rounded-md text-gray-400 py-2 px-3 my-2 cursor-pointer block relative z-50'  download>Download CV</a>
 </div>
 <div className='mt-8'>
 <Footer/>

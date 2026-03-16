@@ -15,7 +15,7 @@ function Footer() {
     <div className="text-white md:flex justify-between items-center lg:flex my-6">
     <div className="md:w-96 w-full">
         <h2 className="text-lg font-bold">About me</h2>
-        <h3 className="text-gray-400 pe-16 py-1 ">I`m Yahoulbo, a <b>front-end developer</b> who loves intuitive, clean and modern UI design.</h3>
+        <h3 className="text-gray-400 pe-16 py-1 ">I`m kalibe felix, a <b>software developer</b> who loves intuitive, clean and modern UI design.</h3>
     </div>
     <div className="md:flex justify-around w-full items-center">
         <div className="me-6">
@@ -40,8 +40,8 @@ function Footer() {
     <div className="flex justify-between items-center my-6 text-white">
         <p>&copy; <span className="text-[#e80b24]">Kalibe Group Inc</span> {date}</p>
         <div className="flex gap-3 justify-between text-xl">
-          <Link>  <FontAwesomeIcon icon={faWhatsapp} className="text-green-600"/></Link>
-            <Link to="https://github.com/kal1be"><FontAwesomeIcon icon={faGithub}/></Link>
+          <a href="https://wa.me/+2349132021995" className="block relative z-50 cursor-pointer">  <FontAwesomeIcon icon={faWhatsapp} className="text-green-600"/></a>
+            <a href="https://github.com/kal1be" className="block relative z-50 cursor-pointer"><FontAwesomeIcon icon={faGithub}/></a>
            <Link> <FontAwesomeIcon icon={faXTwitter} className="text-black"/></Link>
           <Link>  <FontAwesomeIcon icon={faLinkedin} className="text-blue-900"/></Link>
         </div>
