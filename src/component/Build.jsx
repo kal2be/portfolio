@@ -126,7 +126,7 @@ function Build() {
       <div className='lg:flex mt-10'>
        <a  href="https://kal1be.github.io/toukra-project " className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer'>
 
-       <div className='border p-4  lg:me-2' id='element'>
+       <div className='border p-4  lg:me-2 mt-4' id='element'>
 <img src='/toukra1.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>Septembre 2023</h4>
 <p className='text-md my-2 text-white px-1'>The university website was created in the objectif to help the foreign
@@ -134,7 +134,7 @@ function Build() {
        </div></a>
        <a  href="https://kal1be.github.io/devtechnology" className='lg:w-[65%] block cursor-pointer z-50 relative' target='_blank ' rel='noopener noreferrer'>
 
-<div className='border p-4  lg:me-2' id='element'>
+<div className='border p-4  lg:me-2 mt-4' id='element'>
 <img src='/devtech.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg text-[#e80b24] my-3 px-1'>March 2024</h4>
 <p className='text-md my-2 text-white px-1'>DevTechnology is one of my company build for creating cutting-edge service web,networking,LMS platform,E-Commerce and since created and stabilish in 2018,we have almost 300 users in two different country .</p>
