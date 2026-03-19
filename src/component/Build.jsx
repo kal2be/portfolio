@@ -159,9 +159,6 @@ function Build() {
        </div></a>
       </div>
 
-
-    
-      <h2 className='text-xl my-8 text-white'>View more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
       </div>
     </div>
   )

@@ -38,7 +38,7 @@ border: 1px solid rgb(49, 117, 226);
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: preloader 2s linear infinite;
+    animation: preloader 7s linear infinite;
     margin: 0 0;
     background-color: rgb(1, 28, 45);
 }
@@ -50,7 +50,7 @@ border: 1px solid rgb(49, 117, 226);
     margin: 0 2px;
     border-radius: 50%;
     padding: 4px;
-    animation: del 2s linear infinite;
+    animation: del 5s linear infinite;
     color: red;
     text-align: center;
     font-weight: bold;
@@ -58,16 +58,38 @@ border: 1px solid rgb(49, 117, 226);
 
 .preloader .animation1{
     animation-delay: .1s;
-    transition: .1s ease-in-out;
+    transition: .1s ease-out;
 }
 .preloader .animation2{
     animation-delay: .4s;
-    transition: .2s ease-in-out;
+    transition: .2s ease-out;
 }
 .preloader .animation3{
-    animation-delay: .9s;
-    transition: .4s ease-in-out;
+    animation-delay: .8s;
+    transition: .4s ease-out;
 }
+
+.preloader .animation4{
+    animation-delay: .12s;
+    transition: .6s ease-out;
+}
+.preloader .animation5{
+    animation-delay: .16s;
+    transition: .8s ease-out;
+}
+.preloader .animation6{
+    animation-delay: .9s;
+    transition: .10s ease-out;
+}
+.preloader .animation7{
+    animation-delay: .20s;
+    transition: .12s ease-out;
+}
+.preloader .animation8{
+    animation-delay: .24s;
+    transition: .14s ease-out;
+}
+
 @keyframes del {
     0%,100%{
         transform: scale(0);

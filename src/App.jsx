@@ -22,7 +22,7 @@ const App = () => {
       <div className='preloader bg-gray-100'>
        <span className='animation1'>D</span>
         <span className='animation2'>E</span>
-        <span className='animation2'>V</span>
+        <span className='animation3'>V</span>
        </div>
      )
   }
