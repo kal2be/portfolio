@@ -8,10 +8,10 @@ function Build() {
   return (
     <div className='lg:mt-20 mt-10'>
     {/* ++++++++++++++++++ about my-self and my work _+++++++++++++++++++++++++++++++_+++++++++++++ */}
-      <div className='text-xl font-[400] text-gray-200'>
+      <div className='text-xl font-[300] text-gray-200'>
         <p>I&apos;m <span className='text-[#e80b24]'>Yahoulbo Felix</span>.
-         I&apos;m a enthusiast Programmer,and software engineer specialize 
-         in Frontend Development,backend development using Elixir,automated trading system,Forex trader,AI automation,writing computer program is one 
+         I&apos;m a enthusiast Programmer,and developer specialize 
+         in software development using programming language and tools to bring ideas to live and reusable software.I am a Forex trader,AI automation,writing computer program is one 
          of my best passion,and solving real world problem.</p>
       </div>
       {/* _++++++++++++++++++++ the social media that we use _++++++++++++++++++++++++++++++++++++++++= */}
@@ -37,7 +37,7 @@ function Build() {
       <hr/>
       {/* +++++++++++++++++ our latest blog _+++++++++++++++++++++++++++++++++++++= */}
       <div className='my-20'>
-      <h2 className='text-xl font-bold text-white mx-2'>Our latest blog</h2>
+      <h2 className='text-xl font-bold text-white mx-2'>My previous work</h2>
       <div>
         <motion.div
         initial={{opacity:0,x:-100}}

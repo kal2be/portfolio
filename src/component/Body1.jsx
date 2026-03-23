@@ -10,17 +10,25 @@ function Body1() {
  src="/kal.png" className="my-image h-full w-full mt-8 lg:mt-0"/>
 
         </div>
-  <div className="my-4 p-4 max-h-96 overflow-y-auto shadow-sm">
-      <h2 className="font-bold text-xl text-white my-1">Yahoulbo Felix </h2>
+      <div className="px-4 my-2">
+           <h2 className="font-bold text-xl text-white my-1">Yahoulbo Felix </h2>
       <p className="text-xl font-medium text-gray-500">Software Engineer</p>
+      </div>
+  <div className="my-2 p-4 max-h-96 overflow-y-auto shadow-sm">
+     
       <p className="lg:pe-5 text-gray-300 text-md my-2">
-      Hi, I’m Yahoulbo Felix, a highly motivated Computer Scientist and Software Engineer with a passion for creating fast, responsive, and visually engaging web experiences.
-
-I specialize in building modern web applications using React.js, Next.js, TypeScript, Node.js, and MongoDB, combining clean design with solid engineering principles to deliver smooth and scalable solutions.
-
-My curiosity extends beyond the frontend: I’ve developed a facial recognition system using Python, built backend services in Elixir, and engineered MQL5 trading automation systems for financial analysis and AI-driven decision making.
-
-I love solving complex problems, experimenting with new technologies, and transforming ideas into reliable, high-impact software products. When I’m not coding, I’m usually exploring AI innovations, optimizing trading algorithms, or refining user experiences.
+      Hi, I’m Yahoulbo Felix,  I am a software developer and quantitative researcher focused on building
+                  intelligent systems for finance, trading, and scalable software
+                  platforms. My work combines software engineering, artificial
+                  intelligence, and quantitative modeling to create powerful tools
+                  for data-driven decision making.
+                    I specialize in building modern web applications, algorithmic
+                              trading systems, AI-powered analytics platforms, and distributed
+                              backend systems. My goal is to engineer technology that solves
+                              complex problems and delivers real-world impact.
+                                I actively work on trading infrastructure, quantitative strategy
+                                          research,automated system, and intelligent financial systems that integrate machine
+                                          learning with market data analysis.
 </p>
   </div>
   
